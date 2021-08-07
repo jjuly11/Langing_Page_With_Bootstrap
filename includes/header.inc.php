@@ -7,6 +7,7 @@
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.35" />
 	<link rel="stylesheet" href="./styles/new_bootstrap.min.css">
+	<link rel="stylesheet" href="/styles/master.css">
 </head>
 
 <body>
