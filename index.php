@@ -142,6 +142,90 @@ include_once "./includes/header.inc.php";
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
 </div> -->
+<section id="services" class="mt-5">
+	<div class="row">
+		<div class="d-flex justify-content-center text-align-center">
+			<div class="">
+				<h2>Services</h2>
+				<div class="u-line"></div>
+			</div>
+		</div>
+	</div>
+	<div class="container mt-4">
+		<!-- Row 1 Containing 4 items -->
+		<div class="row mb-2">
+			<div class=" col-md-2 row1">
+				1
+			</div>
+			<div class="col-sm-1">
+
+			</div>
+			<div class="row1 col-md-2">
+				2
+			</div>
+			<div class="col-sm-1">
+
+			</div>
+			<div class="row1 col-md-2">
+				3
+			</div>
+			<div class="col-sm-1">
+
+			</div>
+			<div class="row1 col-md-2">
+				4
+			</div>
+			<div class="col-sm-1">
+
+			</div>
+
+		</div>
+
+		<!-- Row 2 Containing 3 items -->
+
+		<div class="row mb-2">
+			<div class="col-sm-1">
+
+			</div>
+			<div class="col-md-2 row2">
+				1
+			</div>
+			<div class="col-sm-2">
+
+			</div>
+			<div class="col-md-2 row2">
+				2
+			</div>
+			<div class="col-sm-2">
+
+			</div>
+			<div class="col-md-2 row2">
+				3
+			</div>
+		</div>
+
+		<!-- Row 3 only containing 2 items   -->
+
+		<div class="row">
+			<div class="col-sm-2">
+
+			</div>
+			<div class="col-md-2 row3">
+				1
+			</div>
+			<div class="col-sm-3">
+
+			</div>
+			<div class="col-md-2 row3">
+				2
+			</div>
+			<div class="col-sm-3">
+
+			</div>
+		</div>
+
+	</div>
+</section>
 <?php
 	include_once "includes/footer.inc.php";
 ?>
