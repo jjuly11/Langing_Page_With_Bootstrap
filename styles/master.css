@@ -1,0 +1,38 @@
+.mynav{
+  background-color: rgba(0,0,0,0.7);
+  border-radius: 0;
+}
+.navbar-secondary{
+  /* display: inline-block !important; */
+  /* width: !important 12em;
+  margin-left: 20em; */
+  position: absolute;
+  right: 0;
+}
+.navbar-brand{
+  color: white;
+}
+.color-white{
+  color: white !important;
+}
+.icon-bar{
+  background-color: white;
+}
+.nav-item{
+  padding: 0.5em;
+}
+.full-window{
+  padding: 37vh 0 37vh 0;
+}
+@media (max-width: 992px) {
+  .navbar-secondary {
+    position: relative !important;
+    right: auto !important;
+  }
+  .color-white{
+    color: white !important;
+  }
+  .color-white:hover{
+    color: black !important;
+  }
+}
