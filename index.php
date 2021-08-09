@@ -155,25 +155,38 @@ include_once "./includes/header.inc.php";
 		<!-- Row 1 Containing 4 items -->
 		<div class="row mb-2">
 			<div class=" col-md-2 row1">
-				1
+
+				<div class="inner-box">
+
+				</div>
+
 			</div>
 			<div class="col-sm-1">
 
 			</div>
 			<div class="row1 col-md-2">
-				2
+
+				<div class="inner-box">
+
+				</div>
 			</div>
 			<div class="col-sm-1">
 
 			</div>
 			<div class="row1 col-md-2">
-				3
+
+				<div class="inner-box">
+
+				</div>
 			</div>
 			<div class="col-sm-1">
 
 			</div>
 			<div class="row1 col-md-2">
-				4
+
+				<div class="inner-box">
+
+				</div>
 			</div>
 			<div class="col-sm-1">
 
@@ -186,21 +199,31 @@ include_once "./includes/header.inc.php";
 		<div class="row mb-2">
 			<div class="col-sm-1">
 
+
 			</div>
 			<div class="col-md-2 row2">
-				1
+
+				<div class="inner-box">
+
+				</div>
 			</div>
 			<div class="col-sm-2">
 
 			</div>
 			<div class="col-md-2 row2">
-				2
+
+				<div class="inner-box">
+
+				</div>
 			</div>
 			<div class="col-sm-2">
 
 			</div>
 			<div class="col-md-2 row2">
-				3
+
+				<div class="inner-box">
+
+				</div>
 			</div>
 		</div>
 
@@ -211,13 +234,19 @@ include_once "./includes/header.inc.php";
 
 			</div>
 			<div class="col-md-2 row3">
-				1
+
+				<div class="inner-box">
+
+				</div>
 			</div>
 			<div class="col-sm-3">
 
 			</div>
 			<div class="col-md-2 row3">
-				2
+
+				<div class="inner-box">
+
+				</div>
 			</div>
 			<div class="col-sm-3">
 
@@ -225,6 +254,41 @@ include_once "./includes/header.inc.php";
 		</div>
 
 	</div>
+</section>
+
+<section id="portfolio">
+	<div class="row">
+		<div class="d-flex justify-content-center text-align-center">
+			<div class="">
+				<h2>Portfolio</h2>
+				<div class="u-line"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<ul class="nav nav-tabs">
+			<li class="nav-item">
+				<a href="#" class="nav-link active">About</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Skills</a>
+			</li>
+			<li class="nav-item">
+				<a href="#" class="nav-link">Projects</a>
+			</li>
+		</ul>
+		<div class="container-fluid" id="about">
+			about
+		</div>
+		<div class="container-fluid" id="skills">
+			skills
+		</div>
+		<div class="container-fluid" id="projects">
+			projects
+		</div>
+	</div>
+
 </section>
 <?php
 	include_once "includes/footer.inc.php";

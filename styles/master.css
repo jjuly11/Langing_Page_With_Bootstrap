@@ -35,30 +35,55 @@
 .row1{
   background-color: gray;
   height: 25vh;
+  padding: 20px;
   /* margin: 5px; */
 }
 .row2{
   background: red;
   height: 25vh;
+  padding: 20px;
   /* margin: 10px; */
 }
 .row3{
   background-color: purple;
   height: 25vh;
+  padding: 20px;
   /* margin: 5px; */
+}
+.inner-box{
+  background-color: yellow;
+  width: 0%;
+  height: 0%;
+  border: 4px solid pink;
+  /* animation: ease-in-out; */
+  transition: all 200ms ease-in-out;
+}
+.row1:hover .inner-box{
+  width: 100%;
+  height: 100%;
+
+}
+.row2:hover .inner-box{
+  width: 100%;
+  height: 100%;
+}
+.row3:hover .inner-box{
+  width: 100%;
+  height: 100%;
+
 }
 @media (max-width: 992px) {
   .navbar-secondary {
     position: relative !important;
     right: auto !important;
   }
-  .color-white{
+  .color-white {
     color: white !important;
   }
-  .color-white:hover{
+  .color-white:hover {
     color: black !important;
   }
-  .row1{
+  .row1 {
     display: block;
   }
 }
