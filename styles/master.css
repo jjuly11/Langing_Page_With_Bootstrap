@@ -72,6 +72,12 @@
   height: 100%;
 
 }
+#skills{
+  display: none;
+}
+#projects{
+  display: none;
+}
 @media (max-width: 992px) {
   .navbar-secondary {
     position: relative !important;

@@ -269,23 +269,56 @@ include_once "./includes/header.inc.php";
 	<div class="container">
 		<ul class="nav nav-tabs">
 			<li class="nav-item">
-				<a href="#" class="nav-link active">About</a>
+				<a href="#" onclick="about_tab()" id="about_control" class="nav-link active">About</a>
 			</li>
 			<li class="nav-item">
-				<a href="#" class="nav-link">Skills</a>
+				<a href="#" class="nav-link" onclick="skills_tab()" id="skills_control">Skills</a>
 			</li>
 			<li class="nav-item">
-				<a href="#" class="nav-link">Projects</a>
+				<a href="#" class="nav-link" onclick="projects_tab()" id="projects_control">Projects</a>
 			</li>
 		</ul>
 		<div class="container-fluid" id="about">
-			about
+			<div class="container">
+				<div class="row">
+					<div class="d-flex justify-content-center text-align-center col-md-6" style="background-color:pink;">
+						<div class="my-auto" style="background-color:orange;">
+							<h3>About</h3>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="container-fluid" id="skills">
-			skills
+			<div class="container">
+				<div class="row">
+					<div class="d-flex justify-content-center text-align-center col-md-6">
+						<div class="my-auto">
+							<h3>Skills</h3>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="container-fluid" id="projects">
-			projects
+			<div class="container">
+				<div class="row">
+					<div class="d-flex justify-content-center text-align-center col-md-6">
+						<div class="my-auto">
+							<h3>Projects</h3>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
