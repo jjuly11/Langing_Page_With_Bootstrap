@@ -78,6 +78,15 @@
 #projects{
   display: none;
 }
+.gallery-img{
+  flex-direction: row;
+}
+
+.font-weight-bold{
+  font-weight: bold;
+}
+
+/* Responsivness for medium screens */
 @media (max-width: 992px) {
   .navbar-secondary {
     position: relative !important;
@@ -91,5 +100,12 @@
   }
   .row1 {
     display: block;
+  }
+  .gallery-img{
+    flex-direction: column;
+    text-align:center;
+  }
+  .gallery-items{
+    margin-bottom: 1rem;
   }
 }

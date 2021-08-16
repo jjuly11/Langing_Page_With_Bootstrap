@@ -347,7 +347,7 @@ include_once "includes/header.inc.php";
 		</div>
 	</div>
 	<div class="row w-75 mx-auto">
-		<div class="d-flex flex-md-row flex-sm-column w-auto mx-auto bg-white p-4 rounded-pill shadow-sm mb-3">
+		<div class="d-flex flex-md-row gallery-img w-auto mx-auto bg-white p-4 rounded-pill shadow-sm mb-3">
 			<div class="fs-6 px-1">
 				All
 			</div>
@@ -367,22 +367,105 @@ include_once "includes/header.inc.php";
 
 
 	<div class="container-fluid bg-white p-5">
-		<div class="d-flex flex-xl-row justify-content-around mb-3">
-			<img src="https://source.unsplash.com/random/300x400" class="img-fluid" alt="Gallery Image">
-			<img src="https://source.unsplash.com/random/300x401" class="img-fluid" alt="Gallery Image">
-			<img src="https://source.unsplash.com/random/300x402" class="img-fluid" alt="Gallery Image">
-			<img src="https://source.unsplash.com/random/300x403" class="img-fluid" alt="Gallery Image">
+		<div class="d-flex  justify-content-around mb-3 gallery-img">
+			<img src="https://source.unsplash.com/random/300x400" class="img-fluid gallery-items" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x401" class="img-fluid gallery-items" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x402" class="img-fluid gallery-items" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x403" class="img-fluid gallery-items" alt="Gallery Image">
 		</div>
-		<div class="d-flex flex-xl-row justify-content-around">
-			<img src="https://source.unsplash.com/random/300x404" class="img-fluid" alt="Gallery Image">
-			<img src="https://source.unsplash.com/random/300x405" class="img-fluid" alt="Gallery Image">
-			<img src="https://source.unsplash.com/random/300x406" class="img-fluid" alt="Gallery Image">
-			<img src="https://source.unsplash.com/random/300x407" class="img-fluid" alt="Gallery Image">
+		<div class="d-flex  justify-content-around gallery-img">
+			<img src="https://source.unsplash.com/random/300x404" class="img-fluid gallery-items" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x405" class="img-fluid gallery-items" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x406" class="img-fluid gallery-items" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x407" class="img-fluid gallery-items" alt="Gallery Image">
 		</div>
 	</div>
 
 	<!-- Gallery Ends -->
+
+	<div class="container-fluid">
+		<div class="d-flex p-4">
+			<img src="images/portImg.jpg" class="img-fluid w-50" alt="">
+			<div class="p-4">
+				<div class="fs-4 font-weight-bold">
+					Fully Responsive
+				</div>
+				<p class="text-muted">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore autem doloribus suscipit, ullam rem eos?
+				</p>
+				<div class="fs-4 font-weight-bold">
+					Clean & Respponsive
+				</div>
+				<p class="text-muted">
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor autem consequatur amet praesentium, ipsa dolore!
+				</p>
+				<div class="fs-4 font-weight-bold">
+					Friendly Support
+				</div>
+				<p class="text-muted">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero illum harum rem reiciendis voluptas.
+				</p>
+			</div>
+		</div>
+	</div>
 </section>
+
+<!-- Teams Setion Begins  -->
+<section id="team">
+<!-- Header Section -->
+	<div class="row">
+		<div class="d-flex justify-content-center text-align-center">
+			<div class="text-center">
+				<span class="fs-2 font-weight-light" style="font-weight:200;">Talented <span class="font-weight-bold" style="font-weight:600;">Team</span> </span>
+				<!-- <div class="u-line"></div> -->
+				<p class="text-muted w-50 mx-auto">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+				</p>
+			</div>
+		</div>
+	</div>
+<!-- Carousel Starts Here -->
+<div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+	<div class="carousel-indicators">
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	</div>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="images/about_img.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>First slide label</h5>
+				<p>Some representative placeholder content for the first slide.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="images/bgimg1.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Second slide label</h5>
+				<p>Some representative placeholder content for the second slide.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="images/bgimg2.jpg" class="d-block w-100" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+				<h5>Third slide label</h5>
+				<p>Some representative placeholder content for the third slide.</p>
+			</div>
+		</div>
+	</div>
+	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Previous</span>
+	</button>
+	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="visually-hidden">Next</span>
+	</button>
+</div>
+
+</section>
+
 
 <!-- Sections of all Services Offered using Icons and Animations -->
 <section id="services" class="mt-5">
