@@ -12,4 +12,4 @@
 	<link rel="stylesheet" href="./styles/master.css">
 </head>
 
-<body>
+<body class="bg-light">

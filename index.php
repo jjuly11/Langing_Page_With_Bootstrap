@@ -143,7 +143,7 @@ include_once "includes/header.inc.php";
   </div>
 </div> -->
 
-<section id="about">
+<section id="about_section">
 
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
@@ -169,8 +169,11 @@ include_once "includes/header.inc.php";
 					<img src="images/bgimg1.jpg" alt="" class="card-img">
 					<a href="gallery_single.php">
 						<div class="card-img-overlay row text-center text-white align-items-end">
-							<div class="card-title fs-3">Web Design</div>
-							<div class="card-text fs-4"><small class="text-primary">Modern & Clean Design</small></div>
+							<div class="card-title fs-4">Web Design
+							</br><small class="text-primary fs-6">Modern & Clean Design</small>
+									<!-- <div class="card-title fs-6"><small class="text-primary">Modern & Clean Design</small></div> -->
+							</div>
+							<div class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</small></div>
 						</div>
 					</a>
 
@@ -181,8 +184,11 @@ include_once "includes/header.inc.php";
 					<img src="images/bgimg2.jpg" alt="" class="card-img">
 					<a href="gallery_single.php">
 						<div class="card-img-overlay row text-center text-white align-items-end">
-							<div class="card-title fs-3">Development</div>
-							<div class="card-text fs-4 text-primary"><p><small>Web & Mobile Development</small></p></div>
+							<div class="card-title fs-4">Development
+								</br>
+								<small class="text-primary fs-6">Web & Mobile Development</small>
+							</div>
+							<div class="card-text text-muted text-center"><p><small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quibusdam soluta quo commodi!</small></p></div>
 						</div>
 					</a>
 
@@ -193,8 +199,11 @@ include_once "includes/header.inc.php";
 					<img src="images/portImg.jpg" alt="" class="card-img">
 					<a href="gallery_single.php">
 						<div class="card-img-overlay row text-center text-white align-items-end">
-							<div class="card-title fs-3">Branding</div>
-							<div class="card-text fs-4 text-primary">Logo & Motion Design</div>
+							<div class="card-title fs-4">Branding
+							</br>
+							<small class="text-primary fs-6">Logo & Motion Design</small>
+							</div>
+							<div class="card-text text-muted text-center"><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam esse sit odio nulla consequuntur.</small></div>
 						</div>
 					</a>
 
@@ -203,8 +212,179 @@ include_once "includes/header.inc.php";
 
 		</div>
 	</div>
+<!-- Combination of two containers  -->
+	<div class="containter row p-3">
+
+		<!-- Menues for switching to more information -->
+		<div class="d-block-inline  float-left p-3 col-md-6 bg-white rounded shadow-lg">
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+					<span href="#" onclick="about_tab()" id="about_control" class="nav-link active">About Us</span>
+				</li>
+				<li class="nav-item">
+					<span href="#" class="nav-link" onclick="skills_tab()" id="skills_control">Why Us?</span>
+				</li>
+				<li class="nav-item">
+					<span href="#" class="nav-link" onclick="projects_tab()" id="projects_control">Projects</span>
+				</li>
+			</ul>
+			<div class="container-fluid" id="about">
+				<div class="container">
+					<div class="row">
+						<div class="d-flex justify-content-center text-align-center col-md-6">
+							<div class="my-auto">
+								<h3>About</h3>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="fs-5">
+								We Are a Creative Agency
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+							<div class="fs-5">
+								Our Mission
+							</div>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.
+							</p>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid" id="skills">
+				<div class="container">
+					<div class="row">
+						<div class="d-flex justify-content-center text-align-center col-md-6">
+							<div class="my-auto">
+								<h3>Skills</h3>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<p>Skills in Progress</p>
+
+
+							<h6>Python</h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+										40% Complete (success)
+								</div>
+							</div>
+
+							<h6>JavaScript</h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+										40% Complete (success)
+								</div>
+							</div>
+
+							<h6>JAVA</h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+										40% Complete (success)
+								</div>
+							</div>
+
+							<h6>C</h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+										40% Complete (success)
+								</div>
+							</div>
+
+							<h6>PHP</h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+										40% Complete (success)
+								</div>
+							</div>
+
+							<h6>Python</h6>
+							<div class="progress">
+								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+										40% Complete (success)
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid" id="projects">
+				<div class="container">
+					<div class="row">
+						<div class="d-flex justify-content-center text-align-center col-md-6">
+							<div class="my-auto">
+								<h3>Projects</h3>
+							</div>
+						</div>
+						<div class="col-md-6">
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Second Secttion that contains the switching images or overlapping image -->
+		<div class="col-md-6">
+			<img src="images/portImg.jpg" class="img-fluid rounded"alt="">
+		</div>
+	</div>
+
 </section>
 
+<!-- Photograpy Portfolio Section Beginning -->
+
+<section id="photo-portfolio">
+	<div class="row">
+		<div class="d-flex justify-content-center text-align-center">
+			<div class="text-center">
+				<span class="fs-2 font-weight-light" style="font-weight:200;">Photography <span class="font-weight-bold" style="font-weight:600;">Portfolio</span> </span>
+				<!-- <div class="u-line"></div> -->
+				<p class="text-muted w-50 mx-auto">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row w-75 mx-auto">
+		<div class="d-flex flex-md-row flex-sm-column w-auto mx-auto bg-white p-4 rounded-pill shadow-sm mb-3">
+			<div class="fs-6 px-1">
+				All
+			</div>
+			<div class="fs-6 px-1">
+				Brand
+			</div>
+			<div class="fs-6 px-1">
+				Design
+			</div>
+			<div class="fs-6 px-1">
+				Graphic
+			</div>
+		</div>
+	</div>
+
+<!-- Gallery Begins -->
+
+
+	<div class="container-fluid bg-white p-5">
+		<div class="d-flex flex-xl-row justify-content-around mb-3">
+			<img src="https://source.unsplash.com/random/300x400" class="img-fluid" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x401" class="img-fluid" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x402" class="img-fluid" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x403" class="img-fluid" alt="Gallery Image">
+		</div>
+		<div class="d-flex flex-xl-row justify-content-around">
+			<img src="https://source.unsplash.com/random/300x404" class="img-fluid" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x405" class="img-fluid" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x406" class="img-fluid" alt="Gallery Image">
+			<img src="https://source.unsplash.com/random/300x407" class="img-fluid" alt="Gallery Image">
+		</div>
+	</div>
+
+	<!-- Gallery Ends -->
+</section>
+
+<!-- Sections of all Services Offered using Icons and Animations -->
 <section id="services" class="mt-5">
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
@@ -319,6 +499,7 @@ include_once "includes/header.inc.php";
 	</div>
 </section>
 
+<!-- Portfolio Section -->
 <section id="portfolio">
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
