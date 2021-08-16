@@ -21,7 +21,7 @@
  *
  *
  */
-include_once "./includes/header.inc.php";
+include_once "includes/header.inc.php";
 ?>
 
 
@@ -142,6 +142,69 @@ include_once "./includes/header.inc.php";
     <a class="dropdown-item" href="#">Something else here</a>
   </div>
 </div> -->
+
+<section id="about">
+
+	<div class="row">
+		<div class="d-flex justify-content-center text-align-center">
+			<div class="">
+				<h4>About our <span class="text-primary">Creative</span> Agency</h4>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="d-flex justify-content-center text-align-center">
+			<div class="">
+				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, voluptatem fugit. Omnis laborum itaque reiciendis nihil, quo minima vel quae est porro quia repellendus consequuntur!</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Service Cards  -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card">
+					<img src="images/bgimg1.jpg" alt="" class="card-img">
+					<a href="gallery_single.php">
+						<div class="card-img-overlay row text-center text-white align-items-end">
+							<div class="card-title fs-3">Web Design</div>
+							<div class="card-text fs-4"><small class="text-primary">Modern & Clean Design</small></div>
+						</div>
+					</a>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+			<div class="card">
+					<img src="images/bgimg2.jpg" alt="" class="card-img">
+					<a href="gallery_single.php">
+						<div class="card-img-overlay row text-center text-white align-items-end">
+							<div class="card-title fs-3">Development</div>
+							<div class="card-text fs-4 text-primary"><p><small>Web & Mobile Development</small></p></div>
+						</div>
+					</a>
+
+				</div>
+			</div>
+			<div class="col-md-4">
+			<div class="card">
+					<img src="images/portImg.jpg" alt="" class="card-img">
+					<a href="gallery_single.php">
+						<div class="card-img-overlay row text-center text-white align-items-end">
+							<div class="card-title fs-3">Branding</div>
+							<div class="card-text fs-4 text-primary">Logo & Motion Design</div>
+						</div>
+					</a>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
 <section id="services" class="mt-5">
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
@@ -358,7 +421,7 @@ include_once "./includes/header.inc.php";
 						</div>
 					</div>
 					<div class="col-md-6">
-						
+
 					</div>
 				</div>
 			</div>
