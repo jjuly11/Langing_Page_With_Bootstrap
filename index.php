@@ -301,7 +301,50 @@ include_once "./includes/header.inc.php";
 						</div>
 					</div>
 					<div class="col-md-6">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p>Skills in Progress</p>
+
+
+						<h6>Python</h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									40% Complete (success)
+							</div>
+						</div>
+
+						<h6>JavaScript</h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									40% Complete (success)
+							</div>
+						</div>
+
+						<h6>JAVA</h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									40% Complete (success)
+							</div>
+						</div>
+
+						<h6>C</h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									40% Complete (success)
+							</div>
+						</div>
+
+						<h6>PHP</h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									40% Complete (success)
+							</div>
+						</div>
+
+						<h6>Python</h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+									40% Complete (success)
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -315,7 +358,7 @@ include_once "./includes/header.inc.php";
 						</div>
 					</div>
 					<div class="col-md-6">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						
 					</div>
 				</div>
 			</div>
