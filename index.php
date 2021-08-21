@@ -26,95 +26,6 @@ include_once "includes/header.inc.php";
 
 
 	<header>
-		<!-- <nav class="navbar navbar-dark bg-dark mynav">
-			<div class="container-fluid">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-					<a class="navbar-brand">Logo</a>
-				</div>
-
-				<div class="collapse navbar-collapse navbar-secondary" id="bs-example-navbar-collapse-1" aria-expanded="false" style="height:1">
-					<ul class="nav navbar-nav">
-            <li class="active"><a href="#" class="navbar-links">Home <span class="sr-only">(current)</span></a></li>
-            <li><a href="#" class="navbar-links">About</a></li>
-						<li><a href="#" class="navbar-links">Blog</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle navbar-links" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#" class="dropdown-links">Network Instalation</a></li>
-                <li><a href="#" class="dropdown-links">IT Support</a></li>
-                <li><a href="#" class="dropdown-links">Deployment Management</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#" class="dropdown-links">Web Development</a></li>
-								<li><a href="#" class="dropdown-links">Software Development</a></li>
-								<li><a href="#" class="dropdown-links">Game Development</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#" class="dropdown-links">Graphic Design</a></li>
-								<li><a href="#" class="dropdown-links">Photography</a></li>
-								<li><a href="#" class="dropdown-links">Videography</a></li>
-              </ul>
-            </li>
-						<li><a href="#" class="navbar-links">Contact</a></li>
-						<li><a href="#" class="navbar-links">Signup</a></li>
-          </ul>
-				</div>
-			</div>
-
-		</nav> -->
-		<nav class="navbar navbar-expand-lg navbar-light mynav">
-		  <div class="container-fluid">
-		    <a class="navbar-brand color-white" href="#">LOGO</a>
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon "></span>
-		    </button>
-		    <div class="collapse navbar-collapse navbar-secondary" id="navbarSupportedContent">
-		      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
-		        <li class="nav-item">
-		          <a class="nav-link active color-white" aria-current="page" href="#">Home</a>
-		        </li>
-		        <li class="nav-item">
-		          <a class="nav-link color-white" href="#">About</a>
-		        </li>
-						<li class="nav-item">
-		          <a class="nav-link color-white" href="#">Blog</a>
-		        </li>
-		        <li class="nav-item dropdown">
-		          <a class="nav-link dropdown-toggle color-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		            Services
-		          </a>
-		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		            <li><a class="dropdown-item" href="#">Network Installation</a></li>
-		            <li><a class="dropdown-item" href="#">IT Support</a></li>
-								<li><a class="dropdown-item" href="#">Deployment Management</a></li>
-		            <li><hr class="dropdown-divider"></li>
-		            <li><a class="dropdown-item" href="#">Web Development</a></li>
-								<li><a class="dropdown-item" href="#">Software Development</a></li>
-								<li><a class="dropdown-item" href="#">Game Development</a></li>
-								<li><hr class="dropdown-divider"></li>
-								<li><a class="dropdown-item" href="#">Graphics Design</a></li>
-								<li><a class="dropdown-item" href="#">Photography</a></li>
-								<li><a class="dropdown-item" href="#">Videography</a></li>
-		          </ul>
-		        </li>
-						<li class="nav-item">
-							<a class="nav-link color-white" href="#">Contact</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link color-white" href="#">Sign-Up</a>
-						</li>
-		      </ul>
-		      <!-- <form class="d-flex">
-		        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-		        <button class="btn btn-outline-success" type="submit">Search</button>
-		      </form> -->
-		    </div>
-		  </div>
-		</nav>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="d-flex justify-content-center align-item-center full-window " style="background: red;">
@@ -195,17 +106,17 @@ include_once "includes/header.inc.php";
 				</div>
 			</div>
 			<div class="col-md-4">
-			<div class="card">
-					<img src="images/portImg.jpg" alt="" class="card-img">
-					<a href="gallery_single.php">
-						<div class="card-img-overlay row text-center text-white align-items-end">
-							<div class="card-title fs-4">Branding
-							</br>
-							<small class="text-primary fs-6">Logo & Motion Design</small>
+				<div class="card">
+						<img src="images/portImg.jpg" alt="" class="card-img">
+						<a href="gallery_single.php">
+							<div class="card-img-overlay row text-center text-white align-items-end">
+								<div class="card-title fs-4">Branding
+								</br>
+								<small class="text-primary fs-6">Logo & Motion Design</small>
+								</div>
+								<div class="card-text text-muted text-center"><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam esse sit odio nulla consequuntur.</small></div>
 							</div>
-							<div class="card-text text-muted text-center"><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam esse sit odio nulla consequuntur.</small></div>
-						</div>
-					</a>
+						</a>
 
 				</div>
 			</div>
@@ -433,266 +344,286 @@ include_once "includes/header.inc.php";
 	</div>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="images/about_img.jpg" class="d-block w-100" alt="...">
+			<img src="images/about_img.jpg" class="d-block w-50 mx-auto" alt="...">
 			<div class="carousel-caption d-none d-md-block">
-				<h5>First slide label</h5>
-				<p>Some representative placeholder content for the first slide.</p>
+				<h3 class="text-primary font-weight-bold">Bob Doal</h3>
+				<p class="text-muted">Some representative placeholder content for the first slide.</p>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="images/bgimg1.jpg" class="d-block w-100" alt="...">
+			<img src="images/bgimg1.jpg" class="d-block w-50 mx-auto" alt="...">
 			<div class="carousel-caption d-none d-md-block">
-				<h5>Second slide label</h5>
-				<p>Some representative placeholder content for the second slide.</p>
+				<h3 class="text-primary font-weight-bold">Kevin Hart</h3>
+				<p class="text-muted">Some representative placeholder content for the second slide.</p>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="images/bgimg2.jpg" class="d-block w-100" alt="...">
+			<img src="images/bgimg2.jpg" class="d-block w-50 mx-auto" alt="...">
 			<div class="carousel-caption d-none d-md-block">
-				<h5>Third slide label</h5>
-				<p>Some representative placeholder content for the third slide.</p>
+				<h3 class="text-primary font-weight-bold">Sabrina Coal</h3>
+				<p class="text-muted">Some representative placeholder content for the third slide.</p>
 			</div>
 		</div>
 	</div>
 	<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		<span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
 		<span class="visually-hidden">Previous</span>
 	</button>
 	<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+		<span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
 		<span class="visually-hidden">Next</span>
 	</button>
 </div>
 
 </section>
 
-
-<!-- Sections of all Services Offered using Icons and Animations -->
-<section id="services" class="mt-5">
+<!-- Pricing Section Begins -->
+<section id="pricing">
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
-			<div class="">
-				<h2>Services</h2>
-				<div class="u-line"></div>
+			<div class="text-center">
+				<span class="fs-2 font-weight-light" style="font-weight:200;">Pricing <span class="font-weight-bold" style="font-weight:600;">Table</span> </span>
+				<!-- <div class="u-line"></div> -->
+				<p class="text-muted w-50 mx-auto">
+					We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.
+				</p>
 			</div>
 		</div>
 	</div>
-	<div class="container mt-4">
-		<!-- Row 1 Containing 4 items -->
-		<div class="row mb-2">
-			<div class=" col-md-2 row1">
 
-				<div class="inner-box">
-
-				</div>
-
+	<!-- Pricing Cards -->
+	<div class="row text-center">
+		<div class="col-md-3">
+			<div class="card">
+					<div class="card-body p-3">
+						<h5 class="card-title font-weight-bold mb-3">Free</h5>
+						<span class="position-absolute font-weight-bold"><small>$</small></span>
+						<h1 class="d-inline">00</h1><span><small>/Month</small></span>
+						<div class="mb-4"></div>
+						<h6 class="card-subtitle text-muted mb-3">5 GB Disk Space</h6>
+						<h6 class="card-subtitle text-muted mb-3">3 Domain Names</h6>
+						<h6 class="card-subtitle text-muted mb-3">2 Email Address</h6>
+						<!-- <h6 class="card-subtitle text-muted">Enhanced Security</h6> -->
+						<!-- <h6 class="card-subtitle text-muted">Unlimited Support</h6> -->
+						<button type="button" class="btn btn-primary rounded-pill" name="button">Purchase Now</button>
+					</div>
 			</div>
-			<div class="col-sm-1">
-
-			</div>
-			<div class="row1 col-md-2">
-
-				<div class="inner-box">
-
-				</div>
-			</div>
-			<div class="col-sm-1">
-
-			</div>
-			<div class="row1 col-md-2">
-
-				<div class="inner-box">
-
-				</div>
-			</div>
-			<div class="col-sm-1">
-
-			</div>
-			<div class="row1 col-md-2">
-
-				<div class="inner-box">
-
-				</div>
-			</div>
-			<div class="col-sm-1">
-
-			</div>
-
 		</div>
-
-		<!-- Row 2 Containing 3 items -->
-
-		<div class="row mb-2">
-			<div class="col-sm-1">
-
-
-			</div>
-			<div class="col-md-2 row2">
-
-				<div class="inner-box">
-
-				</div>
-			</div>
-			<div class="col-sm-2">
-
-			</div>
-			<div class="col-md-2 row2">
-
-				<div class="inner-box">
-
-				</div>
-			</div>
-			<div class="col-sm-2">
-
-			</div>
-			<div class="col-md-2 row2">
-
-				<div class="inner-box">
-
-				</div>
+		<div class="col-md-3">
+			<div class="card">
+					<div class="card-body p-3">
+						<h5 class="card-title font-weight-bold mb-3">Basic</h5>
+						<span class="position-absolute font-weight-bold"><small>$</small></span>
+						<h1 class="d-inline">9</h1><span class="fs-3">.99</span><span><small>/Month</small></span>
+						<div class="mb-4"></div>
+						<h6 class="card-subtitle text-muted mb-3">12 GB Disk Space</h6>
+						<h6 class="card-subtitle text-muted mb-3">15 Domain Names</h6>
+						<h6 class="card-subtitle text-muted mb-3">6 Email Address</h6>
+						<h6 class="card-subtitle text-muted mb-3">Enhanced Security</h6>
+						<h6 class="card-subtitle text-muted mb-3">Unlimited Support</h6>
+						<button type="button" class="btn btn-primary rounded-pill" name="button">Purchase Now</button>
+					</div>
 			</div>
 		</div>
 
-		<!-- Row 3 only containing 2 items   -->
-
-		<div class="row">
-			<div class="col-sm-2">
-
-			</div>
-			<div class="col-md-2 row3">
-
-				<div class="inner-box">
-
-				</div>
-			</div>
-			<div class="col-sm-3">
-
-			</div>
-			<div class="col-md-2 row3">
-
-				<div class="inner-box">
-
-				</div>
-			</div>
-			<div class="col-sm-3">
-
+		<div class="col-md-3">
+			<div class="card">
+					<div class="card-body p-3">
+						<h5 class="card-title font-weight-bold mb-3">Standard</h5>
+						<span class="position-absolute font-weight-bold"><small>$</small></span>
+						<h1 class="d-inline">29</h1><span class="fs-3">.99</span><span><small>/Month</small></span>
+						<div class="mb-4"></div>
+						<h6 class="card-subtitle text-muted mb-3">20 GB Disk Space</h6>
+						<h6 class="card-subtitle text-muted mb-3">20 Domain Names</h6>
+						<h6 class="card-subtitle text-muted mb-3">12 Email Address</h6>
+						<h6 class="card-subtitle text-muted mb-3">Enhanced Security</h6>
+						<h6 class="card-subtitle text-muted mb-3">Unlimited Support</h6>
+						<button type="button" class="btn btn-primary rounded-pill" name="button">Purchase Now</button>
+					</div>
 			</div>
 		</div>
+
+		<div class="col-md-3">
+			<div class="card">
+					<div class="card-body p-3">
+						<h5 class="card-title font-weight-bold mb-3">Premium</h5>
+						<span class="position-absolute font-weight-bold"><small>$</small></span>
+						<h1 class="d-inline">49</h1><span class="fs-3">.99</span><span><small>/Month</small></span>
+						<div class="mb-4"></div>
+						<h6 class="card-subtitle text-muted mb-3">50 GB Disk Space</h6>
+						<h6 class="card-subtitle text-muted mb-3">25 Domain Names</h6>
+						<h6 class="card-subtitle text-muted mb-3">20 Email Address</h6>
+						<h6 class="card-subtitle text-muted mb-3">Enhanced Security</h6>
+						<h6 class="card-subtitle text-muted mb-3">Unlimited Support</h6>
+						<button type="button" class="btn btn-primary rounded-pill" name="button">Purchase Now</button>
+					</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!-- Pricing Section Finish -->
+
+<!-- Latest News Section -->
+
+<section id="news" >
+	<div class="row">
+		<div class="d-flex justify-content-center text-align-center">
+			<div class="text-center">
+				<span class="fs-2 font-weight-light" style="font-weight:200;">Latest <span class="font-weight-bold" style="font-weight:600;">News</span> </span>
+				<!-- <div class="u-line"></div> -->
+				<p class="text-muted w-50 mx-auto">
+					We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<!-- Spacer Div -->
+		<div class="col-md-1">
+
+		</div>
+
+		<div class="col-md-3">
+			<div class="card" style="width: 18rem;">
+			  <img src="images/about_img.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">48 Best WordPress Themes</h5>
+			    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero officia molestias repellat ea officiis exercitationem!</p>
+			    <a href="#" class="btn btn-primary">Read More</a>
+			  </div>
+			</div>
+		</div>
+		<!-- Spacer Div -->
+		<div class="col-md-1">
+
+		</div>
+
+		<div class="col-md-3">
+			<div class="card" style="width: 18rem;">
+			  <img src="images/portImg.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">48 Best WordPress Themes</h5>
+			    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+			    <a href="#" class="btn btn-primary">Read More</a>
+			  </div>
+			</div>
+		</div>
+		<!-- Spacer Div -->
+		<div class="col-md-1">
+
+		</div>
+
+		<div class="col-md-3">
+			<div class="card" style="width: 18rem;">
+			  <img src="images/bgimg1.jpg" class="card-img-top" alt="...">
+			  <div class="card-body">
+			    <h5 class="card-title">48 Best WordPress Themes</h5>
+			    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero officia molestias repellat ea officiis exercitationem!</p>
+			    <a href="#" class="btn btn-primary">Read More</a>
+			  </div>
+			</div>
+		</div>
+
 
 	</div>
 </section>
 
-<!-- Portfolio Section -->
-<section id="portfolio">
+<!-- Shout Out -->
+
+<section>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="d-flex justify-content-center align-item-center full-window ">
+
+				<div class="text-center" >
+					<h3 class="text-dark p-2 fs-1">Want to work with us?</h3>
+					<h2 class="text-dark p-2 fs-3 mb-3">Tell us about your project</h2>
+					<button type="button" class="btn btn-lg btn-outline-dark" name="button">Get Started</button>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+</section>
+
+<!-- Contact For Section -->
+<section id="contact">
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
-			<div class="">
-				<h2>Portfolio</h2>
-				<div class="u-line"></div>
+			<div class="text-center">
+				<span class="fs-2 font-weight-light" style="font-weight:200;"><span class="font-weight-bold" style="font-weight:600;">Get</span> in <span class="font-weight-bold" style="font-weight:600;">Touch</span> </span>
+				<!-- <div class="u-line"></div> -->
+				<p class="text-muted w-50 mx-auto">
+					We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.
+				</p>
 			</div>
 		</div>
 	</div>
 
 	<div class="container">
-		<ul class="nav nav-tabs">
-			<li class="nav-item">
-				<a href="#" onclick="about_tab()" id="about_control" class="nav-link active">About</a>
-			</li>
-			<li class="nav-item">
-				<a href="#" class="nav-link" onclick="skills_tab()" id="skills_control">Skills</a>
-			</li>
-			<li class="nav-item">
-				<a href="#" class="nav-link" onclick="projects_tab()" id="projects_control">Projects</a>
-			</li>
-		</ul>
-		<div class="container-fluid" id="about">
-			<div class="container">
-				<div class="row">
-					<div class="d-flex justify-content-center text-align-center col-md-6" style="background-color:pink;">
-						<div class="my-auto" style="background-color:orange;">
-							<h3>About</h3>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="fs-5 font-weight-bold">
+					Contact us:
 				</div>
+				<p class="text-muted">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, fugit!
+				</p>
+				<div class="fs-5 font-weight-bold">
+					Phone:
+				</div>
+				<p class="text-muted">
+					+20 010 251 789 18 , 251 789 18
+				</p>
+				<div class="fs-5 font-weight-bold">
+					Email:
+				</div>
+				<p class="text-muted">
+					Coco_support@website.com
+				</p>
+
+				<div class="fs-5 font-weight-bold">
+					Address:
+				</div>
+				<p class="text-muted">
+					4655 Carter Street ,Olney, Illinois
+				</p>
 			</div>
-		</div>
-		<div class="container-fluid" id="skills">
-			<div class="container">
-				<div class="row">
-					<div class="d-flex justify-content-center text-align-center col-md-6">
-						<div class="my-auto">
-							<h3>Skills</h3>
+
+			<!-- Forms Start -->
+			<div class="col-md-8 p-4">
+				<form>
+				  <div class="row mb-3">
+				    <div class="col">
+				      <input type="text" class="form-control" name="name" placeholder="Name">
+				    </div>
+				    <div class="col">
+				      <input type="email" class="form-control" name="email" placeholder="Email">
+				    </div>
+				  </div>
+					<div class="row mb-3">
+						<div class="col">
+							<input type="text" class="form-control" name="subject" placeholder="Subject">
 						</div>
 					</div>
-					<div class="col-md-6">
-						<p>Skills in Progress</p>
 
-
-						<h6>Python</h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-									40% Complete (success)
-							</div>
-						</div>
-
-						<h6>JavaScript</h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-									40% Complete (success)
-							</div>
-						</div>
-
-						<h6>JAVA</h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-									40% Complete (success)
-							</div>
-						</div>
-
-						<h6>C</h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-									40% Complete (success)
-							</div>
-						</div>
-
-						<h6>PHP</h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-									40% Complete (success)
-							</div>
-						</div>
-
-						<h6>Python</h6>
-						<div class="progress">
-							<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-									40% Complete (success)
-							</div>
-						</div>
+					<div class="form-row mb-3">
+						<textarea class="form-control" id="textAreaExample1" rows="4" placeholder="Message"></textarea>
+						<!-- <label class="form-label" for="textAreaExample">Message</label> -->
 					</div>
-				</div>
-			</div>
-		</div>
-		<div class="container-fluid" id="projects">
-			<div class="container">
-				<div class="row">
-					<div class="d-flex justify-content-center text-align-center col-md-6">
-						<div class="my-auto">
-							<h3>Projects</h3>
-						</div>
-					</div>
-					<div class="col-md-6">
-
-					</div>
-				</div>
+					<button type="button" name="button" class="btn btn-primary rounded-pill">Send Message</button>
+				</form>
 			</div>
 		</div>
 	</div>
 
-</section>
+
 <?php
 	include_once "includes/footer.inc.php";
 ?>
