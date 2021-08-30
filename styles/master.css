@@ -1,5 +1,7 @@
 .mynav{
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0);
+  position: fixed;
+  width: 100vw;
   border-radius: 0;
 }
 .navbar-secondary{
@@ -32,6 +34,7 @@
   position: absolute;
   left: 47.15vw;
 }
+/* For the animations in the ideas.php file */
 .row1{
   background-color: gray;
   height: 25vh;
@@ -72,6 +75,7 @@
   height: 100%;
 
 }
+/* Growing Box Animation end here */
 #skills{
   display: none;
 }
@@ -89,6 +93,44 @@
 .position-absolute{
   top: 2em;
   left: 5em;
+}
+/* Button Hover animation */
+.btn{
+  position: relative;
+}
+.btn{
+  overflow: hidden;
+}
+.btn span::before{
+  content: '';
+  background: blue;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+  width: 0%;
+  height: 100%;
+  transition: ease-in 100ms all;
+}
+
+.btn span::after{
+  content: 'Start Here';
+  position: relative;
+  top: 50%;
+  left: 0%;
+  transform: translate(-50%,-50%);
+  z-index: 5;
+  transition: ease-in 100ms all;
+  /* color: black; */
+}
+
+.btn:hover span::before{
+  width: 100%;
+}
+.btn:hover span::after{
+  /* color: red; */
+  letter-spacing: 0.15em;
 }
 /* Responsivness for medium screens */
 @media (max-width: 992px) {
@@ -111,5 +153,8 @@
   }
   .gallery-items{
     margin-bottom: 1rem;
+  }
+  .sticky-top{
+    position: relative;
   }
 }

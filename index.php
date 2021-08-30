@@ -28,13 +28,14 @@ include_once "includes/header.inc.php";
 	<header>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="d-flex justify-content-center align-item-center full-window " style="background: red;">
+				<div class="d-flex justify-content-center align-item-center full-window " style="background-image: url('images/bgimg1.jpg'); background-position: center; background-size:cover;">
 
-					<div class="text-center" style="background: blue;">
-						<h3 class="text-light p-2">This is a new Beginning</h3>
-						<h2 class="text-light p-2">Welcome to</h2>
-						<h1 class="text-light p-2 mb-4">LOGO</h1>
-						<button type="button" class="btn btn-lg btn-outline-light" name="button">Start Here</button>
+					<div class="text-center text-light">
+						<!-- <h3 class="text-light p-2">This is a new Beginning</h3> -->
+						<h2 class="text-light p-2">We Are</h2>
+						<h1 class="text-light p-2 mb-4">Big Digital Agency</h1>
+						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni blanditiis voluptas aspernatur quis obcaecati veniam.</p>
+						<button type="button" class="btn btn-lg btn-outline-primary bg-white rounded-pill px-5" name="button"><span class="fs-6"></span></button>
 					</div>
 
 				</div>
@@ -295,8 +296,8 @@ include_once "includes/header.inc.php";
 	<!-- Gallery Ends -->
 
 	<div class="container-fluid">
-		<div class="d-flex p-4">
-			<img src="images/portImg.jpg" class="img-fluid w-50" alt="">
+		<div class="d-flex gallery-img p-4">
+			<img src="images/portImg.jpg" class="img-fluid w-100" alt="">
 			<div class="p-4">
 				<div class="fs-4 font-weight-bold">
 					Fully Responsive
@@ -380,7 +381,7 @@ include_once "includes/header.inc.php";
 <!-- Pricing Section Begins -->
 <section id="pricing">
 	<div class="row">
-		<div class="d-flex justify-content-center text-align-center">
+		<div class="d-flex justify-content-center text-align-center px-0">
 			<div class="text-center">
 				<span class="fs-2 font-weight-light" style="font-weight:200;">Pricing <span class="font-weight-bold" style="font-weight:600;">Table</span> </span>
 				<!-- <div class="u-line"></div> -->
@@ -469,7 +470,7 @@ include_once "includes/header.inc.php";
 
 <section id="news" >
 	<div class="row">
-		<div class="d-flex justify-content-center text-align-center">
+		<div class="d-flex justify-content-center text-align-center px-0">
 			<div class="text-center">
 				<span class="fs-2 font-weight-light" style="font-weight:200;">Latest <span class="font-weight-bold" style="font-weight:600;">News</span> </span>
 				<!-- <div class="u-line"></div> -->
@@ -555,7 +556,7 @@ include_once "includes/header.inc.php";
 <!-- Contact For Section -->
 <section id="contact">
 	<div class="row">
-		<div class="d-flex justify-content-center text-align-center">
+		<div class="d-flex justify-content-center text-align-center px-0">
 			<div class="text-center">
 				<span class="fs-2 font-weight-light" style="font-weight:200;"><span class="font-weight-bold" style="font-weight:600;">Get</span> in <span class="font-weight-bold" style="font-weight:600;">Touch</span> </span>
 				<!-- <div class="u-line"></div> -->
