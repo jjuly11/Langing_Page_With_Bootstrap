@@ -33,7 +33,7 @@ include_once "includes/header.inc.php";
 					<div class="text-center text-light">
 						<!-- <h3 class="text-light p-2">This is a new Beginning</h3> -->
 						<h2 class="text-light p-2">We Are</h2>
-						<h1 class="text-light p-2 mb-4">Big Digital Agency</h1>
+						<h1 class="text-light p-2 mb-4 font-weight-bold">Big Digital Agency</h1>
 						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni blanditiis voluptas aspernatur quis obcaecati veniam.</p>
 						<button type="button" class="btn btn-lg btn-outline-primary bg-white rounded-pill px-5" name="button"><span class="fs-6"></span></button>
 					</div>
@@ -55,17 +55,17 @@ include_once "includes/header.inc.php";
   </div>
 </div> -->
 
-<section id="about_section">
+<section id="about_section" class="p-5 my-5" >
 
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
-			<div class="">
+			<div class="p-3">
 				<h4>About our <span class="text-primary">Creative</span> Agency</h4>
 			</div>
 		</div>
 	</div>
 
-	<div class="row">
+	<div class="row mb-5">
 		<div class="d-flex justify-content-center text-align-center">
 			<div class="">
 				<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, voluptatem fugit. Omnis laborum itaque reiciendis nihil, quo minima vel quae est porro quia repellendus consequuntur!</p>
@@ -77,47 +77,51 @@ include_once "includes/header.inc.php";
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4">
-				<div class="card">
-					<img src="images/bgimg1.jpg" alt="" class="card-img">
-					<a href="gallery_single.php">
-						<div class="card-img-overlay row text-center text-white align-items-end">
-							<div class="card-title fs-4">Web Design
+				
+				<div class="card text-center">
+					<i class="fas fa-laptop-code fa-10x card-img-top"></i>		
+					<!-- <img src="images/bgimg1.jpg" alt="" class="card-img"> -->
+					
+					<div class="card-body row align-items-end">
+						<div class="card-title fs-4">Web Design
 							</br><small class="text-primary fs-6">Modern & Clean Design</small>
-									<!-- <div class="card-title fs-6"><small class="text-primary">Modern & Clean Design</small></div> -->
-							</div>
-							<div class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</small></div>
+								<!-- <div class="card-title fs-6"><small class="text-primary">Modern & Clean Design</small></div> -->
 						</div>
-					</a>
+						<div class="card-text"><small class="text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</small></div>
+					</div>
+					
 
 				</div>
 			</div>
 			<div class="col-md-4">
-			<div class="card">
-					<img src="images/bgimg2.jpg" alt="" class="card-img">
-					<a href="gallery_single.php">
-						<div class="card-img-overlay row text-center text-white align-items-end">
-							<div class="card-title fs-4">Development
-								</br>
-								<small class="text-primary fs-6">Web & Mobile Development</small>
-							</div>
-							<div class="card-text text-muted text-center"><p><small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quibusdam soluta quo commodi!</small></p></div>
-						</div>
-					</a>
+			<div class="card text-center">
+				<i class="fas fa-tools fa-10x card-img-top"></i>
+					
+				
+				<div class="card-body row align-items-end">
+					<div class="card-title fs-4">Development
+						</br>
+						<small class="text-primary fs-6">Web & Mobile Development</small>
+					</div>
+					<div class="card-text text-muted text-center"><p><small>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quibusdam soluta quo commodi!</small></p></div>
+				</div>
+				
 
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="card">
-						<img src="images/portImg.jpg" alt="" class="card-img">
-						<a href="gallery_single.php">
-							<div class="card-img-overlay row text-center text-white align-items-end">
-								<div class="card-title fs-4">Branding
-								</br>
-								<small class="text-primary fs-6">Logo & Motion Design</small>
-								</div>
-								<div class="card-text text-muted text-center"><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam esse sit odio nulla consequuntur.</small></div>
-							</div>
-						</a>
+				<div class="card text-center">
+				<i class="fas fa-file-contract fa-10x card-img-top"></i>
+						<!-- <img src="images/portImg.jpg" alt="" class="card-img"> -->
+						
+				<div class="card-body row align-items-end">
+					<div class="card-title fs-4">Branding
+					</br>
+					<small class="text-primary fs-6">Logo & Motion Design</small>
+					</div>
+					<div class="card-text text-muted text-center"><small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam esse sit odio nulla consequuntur.</small></div>
+				</div>
+			
 
 				</div>
 			</div>

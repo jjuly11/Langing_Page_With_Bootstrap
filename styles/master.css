@@ -1,7 +1,7 @@
 .mynav{
   background-color: rgba(0,0,0,0);
   position: fixed;
-  width: 100vw;
+  width: 100%;
   border-radius: 0;
 }
 .navbar-secondary{
