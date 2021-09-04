@@ -55,7 +55,7 @@ include_once "includes/header.inc.php";
   </div>
 </div> -->
 
-<section id="about_section" class="p-5 my-5" >
+<section id="about_section" class="p-5 my-5 w-100" >
 
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
@@ -74,12 +74,12 @@ include_once "includes/header.inc.php";
 	</div>
 
 	<!-- Service Cards  -->
-	<div class="container">
+	<div class="container mb-5">
 		<div class="row">
 			<div class="col-md-4">
 				
 				<div class="card text-center">
-					<i class="fas fa-laptop-code fa-10x card-img-top"></i>		
+					<i class="fas fa-laptop-code fa-10x card-img-top p-3"></i>		
 					<!-- <img src="images/bgimg1.jpg" alt="" class="card-img"> -->
 					
 					<div class="card-body row align-items-end">
@@ -95,7 +95,7 @@ include_once "includes/header.inc.php";
 			</div>
 			<div class="col-md-4">
 			<div class="card text-center">
-				<i class="fas fa-tools fa-10x card-img-top"></i>
+				<i class="fas fa-tools fa-10x card-img-top p-3"></i>
 					
 				
 				<div class="card-body row align-items-end">
@@ -111,7 +111,7 @@ include_once "includes/header.inc.php";
 			</div>
 			<div class="col-md-4">
 				<div class="card text-center">
-				<i class="fas fa-file-contract fa-10x card-img-top"></i>
+				<i class="fas fa-file-contract fa-10x card-img-top p-3"></i>
 						<!-- <img src="images/portImg.jpg" alt="" class="card-img"> -->
 						
 				<div class="card-body row align-items-end">
@@ -182,43 +182,43 @@ include_once "includes/header.inc.php";
 
 							<h6>Python</h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-										40% Complete (success)
+								<div class="progress-bar progress-bar-striped progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:56%">
+										56% Complete (success)
 								</div>
 							</div>
 
 							<h6>JavaScript</h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-										40% Complete (success)
+								<div class="progress-bar progress-bar-striped progress-bar-warning" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:44%">
+										44% Complete (success)
 								</div>
 							</div>
 
 							<h6>JAVA</h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-										40% Complete (success)
+								<div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+										65% Complete (success)
 								</div>
 							</div>
 
 							<h6>C</h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-										40% Complete (success)
+								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:70%">
+										70% Complete (success)
 								</div>
 							</div>
 
 							<h6>PHP</h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-										40% Complete (success)
+								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:52%">
+										52% Complete (success)
 								</div>
 							</div>
 
 							<h6>Python</h6>
 							<div class="progress">
-								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
-										40% Complete (success)
+								<div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+										80% Complete (success)
 								</div>
 							</div>
 						</div>
@@ -234,7 +234,18 @@ include_once "includes/header.inc.php";
 							</div>
 						</div>
 						<div class="col-md-6">
-
+							<div class="mb-3" >
+								<a href="#" class="" >Banking System</a>
+							</div>
+							<div class="mb-3">
+								<a href="#" class="" >ATM Machine</a>
+							</div>
+							<div class="mb-3">
+							<a href="#" class="" >3D Platformer Game</a>	
+							</div>
+							<div class="mb-3">
+								<a href="#" class="" >One Page Website</a>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -250,7 +261,7 @@ include_once "includes/header.inc.php";
 
 <!-- Photograpy Portfolio Section Beginning -->
 
-<section id="photo-portfolio">
+<section id="photo-portfolio" class="mb-5 w-100" >
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
 			<div class="text-center">
@@ -282,7 +293,7 @@ include_once "includes/header.inc.php";
 <!-- Gallery Begins -->
 
 
-	<div class="container-fluid bg-white p-5">
+	<div class="container-fluid bg-white p-5 mb-5">
 		<div class="d-flex  justify-content-around mb-3 gallery-img">
 			<img src="https://source.unsplash.com/random/300x400" class="img-fluid gallery-items" alt="Gallery Image">
 			<img src="https://source.unsplash.com/random/300x401" class="img-fluid gallery-items" alt="Gallery Image">
@@ -299,7 +310,7 @@ include_once "includes/header.inc.php";
 
 	<!-- Gallery Ends -->
 
-	<div class="container-fluid">
+	<div class="container-fluid ">
 		<div class="d-flex gallery-img p-4">
 			<img src="images/portImg.jpg" class="img-fluid w-100" alt="">
 			<div class="p-4">
@@ -310,7 +321,7 @@ include_once "includes/header.inc.php";
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur labore autem doloribus suscipit, ullam rem eos?
 				</p>
 				<div class="fs-4 font-weight-bold">
-					Clean & Respponsive
+					Clean & Responsive
 				</div>
 				<p class="text-muted">
 					Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor autem consequatur amet praesentium, ipsa dolore!
@@ -327,7 +338,7 @@ include_once "includes/header.inc.php";
 </section>
 
 <!-- Teams Setion Begins  -->
-<section id="team">
+<section id="team" class="mb-5 p-3 w-100">
 <!-- Header Section -->
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center">
@@ -346,24 +357,40 @@ include_once "includes/header.inc.php";
 		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
 		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+		<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button>
 	</div>
 	<div class="carousel-inner">
 		<div class="carousel-item active">
-			<img src="images/about_img.jpg" class="d-block w-50 mx-auto" alt="...">
+			<img src="images/emp1.jpg" class="d-block w-50 mx-auto" alt="...">
 			<div class="carousel-caption d-none d-md-block">
 				<h3 class="text-primary font-weight-bold">Bob Doal</h3>
 				<p class="text-muted">Some representative placeholder content for the first slide.</p>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="images/bgimg1.jpg" class="d-block w-50 mx-auto" alt="...">
+			<img src="images/emp2.jpg" class="d-block w-50 mx-auto" alt="...">
 			<div class="carousel-caption d-none d-md-block">
 				<h3 class="text-primary font-weight-bold">Kevin Hart</h3>
 				<p class="text-muted">Some representative placeholder content for the second slide.</p>
 			</div>
 		</div>
 		<div class="carousel-item">
-			<img src="images/bgimg2.jpg" class="d-block w-50 mx-auto" alt="...">
+			<img src="images/emp3.jpg" class="d-block w-50 mx-auto" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+				<h3 class="text-primary font-weight-bold">Sabrina Coal</h3>
+				<p class="text-muted">Some representative placeholder content for the third slide.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="images/emp4.jpg" class="d-block w-50 mx-auto" alt="...">
+			<div class="carousel-caption d-none d-md-block">
+				<h3 class="text-primary font-weight-bold">Sabrina Coal</h3>
+				<p class="text-muted">Some representative placeholder content for the third slide.</p>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="images/emp5.jpg" class="d-block w-50 mx-auto" alt="...">
 			<div class="carousel-caption d-none d-md-block">
 				<h3 class="text-primary font-weight-bold">Sabrina Coal</h3>
 				<p class="text-muted">Some representative placeholder content for the third slide.</p>
@@ -383,13 +410,13 @@ include_once "includes/header.inc.php";
 </section>
 
 <!-- Pricing Section Begins -->
-<section id="pricing">
-	<div class="row">
+<section id="pricing" class="p-4 mb-4 w-100">
+	<div class="row mb-3">
 		<div class="d-flex justify-content-center text-align-center px-0">
 			<div class="text-center">
 				<span class="fs-2 font-weight-light" style="font-weight:200;">Pricing <span class="font-weight-bold" style="font-weight:600;">Table</span> </span>
 				<!-- <div class="u-line"></div> -->
-				<p class="text-muted w-50 mx-auto">
+				<p class="text-muted w-50 mx-auto mt-2">
 					We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.
 				</p>
 			</div>
@@ -472,13 +499,13 @@ include_once "includes/header.inc.php";
 
 <!-- Latest News Section -->
 
-<section id="news" >
-	<div class="row">
+<section id="news" class="mb-4 p-3 w-100" >
+	<div class="row mb-4">
 		<div class="d-flex justify-content-center text-align-center px-0">
 			<div class="text-center">
 				<span class="fs-2 font-weight-light" style="font-weight:200;">Latest <span class="font-weight-bold" style="font-weight:600;">News</span> </span>
 				<!-- <div class="u-line"></div> -->
-				<p class="text-muted w-50 mx-auto">
+				<p class="text-muted w-50 mx-auto mt-3">
 					We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.
 				</p>
 			</div>
@@ -486,12 +513,9 @@ include_once "includes/header.inc.php";
 	</div>
 
 	<div class="row">
-		<!-- Spacer Div -->
-		<div class="col-md-1">
+		
 
-		</div>
-
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<div class="card" style="width: 18rem;">
 			  <img src="images/about_img.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
@@ -501,12 +525,8 @@ include_once "includes/header.inc.php";
 			  </div>
 			</div>
 		</div>
-		<!-- Spacer Div -->
-		<div class="col-md-1">
-
-		</div>
-
-		<div class="col-md-3">
+		
+		<div class="col-md-4">
 			<div class="card" style="width: 18rem;">
 			  <img src="images/portImg.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
@@ -516,12 +536,9 @@ include_once "includes/header.inc.php";
 			  </div>
 			</div>
 		</div>
-		<!-- Spacer Div -->
-		<div class="col-md-1">
+		
 
-		</div>
-
-		<div class="col-md-3">
+		<div class="col-md-4">
 			<div class="card" style="width: 18rem;">
 			  <img src="images/bgimg1.jpg" class="card-img-top" alt="...">
 			  <div class="card-body">
@@ -538,16 +555,16 @@ include_once "includes/header.inc.php";
 
 <!-- Shout Out -->
 
-<section>
+<section style="background-image: url('images/bg_poster.jpg'); background-position: center; background-size: cover;" class="mb-5 w-100" >
 
 	<div class="container-fluid">
 		<div class="row">
 			<div class="d-flex justify-content-center align-item-center full-window ">
 
 				<div class="text-center" >
-					<h3 class="text-dark p-2 fs-1">Want to work with us?</h3>
-					<h2 class="text-dark p-2 fs-3 mb-3">Tell us about your project</h2>
-					<button type="button" class="btn btn-lg btn-outline-dark" name="button">Get Started</button>
+					<h3 class="text-danger p-2 fs-1">Want to work with us?</h3>
+					<h2 class="text-white p-2 fs-3 mb-3">Tell us about your project</h2>
+					<button type="button" class="btn btn-lg btn-outline-danger" name="button">Get Started</button>
 				</div>
 
 			</div>
@@ -558,13 +575,13 @@ include_once "includes/header.inc.php";
 </section>
 
 <!-- Contact For Section -->
-<section id="contact">
+<section id="contact" class="p-4 mb-3 w-100">
 	<div class="row">
 		<div class="d-flex justify-content-center text-align-center px-0">
 			<div class="text-center">
 				<span class="fs-2 font-weight-light" style="font-weight:200;"><span class="font-weight-bold" style="font-weight:600;">Get</span> in <span class="font-weight-bold" style="font-weight:600;">Touch</span> </span>
 				<!-- <div class="u-line"></div> -->
-				<p class="text-muted w-50 mx-auto">
+				<p class="text-muted w-50 mx-auto mt-3">
 					We are a passionate digital design agency that specializes in beautiful and easy-to-use digital design & web development services.
 				</p>
 			</div>
@@ -627,7 +644,7 @@ include_once "includes/header.inc.php";
 			</div>
 		</div>
 	</div>
-
+</section>
 
 <?php
 	include_once "includes/footer.inc.php";

@@ -1,14 +1,14 @@
-<div class="row bg-dark p-5">
+<footer class="row bg-dark p-5 w-100">
   <div class="d-flex justify-content-center text-align-center">
     <div class="text-center text-white">
-      <span class="fs-6 font-weight-light" style="font-weight:200;"><span class="font-weight-bold" style="font-weight:600;">Logo</span></spam>
+      <span class="fs-6 font-weight-light" style="font-weight:200;"><span class="font-weight-bold" style="font-weight:600;">Page inc</span></spam>
       <!-- <div class="u-line"></div> -->
       <div class="">
         © 2021 Nexus HUB-Joel July. All Rights Rerserved
       </div>
     </div>
   </div>
-</div>
+</footer>
 
 
 
