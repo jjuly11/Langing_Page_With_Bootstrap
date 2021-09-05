@@ -3,6 +3,10 @@ function about_tab(){
   var projects=document.getElementById("projects");
   var about=document.getElementById("about");
 
+  var img=document.getElementById("abt_img");
+  
+  img.src="images/portImg.jpg";
+
   console.log("About Tab Has been clicked");
   skills.style.display="none";
   projects.style.display="none";
@@ -19,6 +23,9 @@ function skills_tab(){
   var projects=document.getElementById("projects");
   var about=document.getElementById("about");
 
+  var img=document.getElementById("abt_img");
+  
+  img.src="images/skill_img.jpg";
   console.log("Skills Tab Has been clicked");
   skills.style.display="block";
   projects.style.display="none";
@@ -33,6 +40,10 @@ function projects_tab(){
   var skills=document.getElementById("skills");
   var projects=document.getElementById("projects");
   var about=document.getElementById("about");
+
+  var img=document.getElementById("abt_img");
+  
+  img.src="images/project_img.jpg";
 
   console.log("Projects Tab Has been clicked");
   skills.style.display="none";

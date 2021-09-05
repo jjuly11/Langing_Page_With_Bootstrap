@@ -253,7 +253,7 @@ include_once "includes/header.inc.php";
 		</div>
 		<!-- Second Secttion that contains the switching images or overlapping image -->
 		<div class="col-md-6">
-			<img src="images/portImg.jpg" class="img-fluid rounded"alt="">
+			<img src="images/portImg.jpg" class="img-fluid rounded" id="abt_img" alt="">
 		</div>
 	</div>
 
